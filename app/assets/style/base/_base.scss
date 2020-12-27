@@ -1,0 +1,183 @@
+// 響應式文字變化
+  @include media-breakpoint-up(sm) {
+    .h5{
+        font-size: 0.8rem;
+
+    }
+
+  }
+  
+  @include media-breakpoint-up(md) {
+    .h1, .h2, .h3, .h4, .h5,  p {
+        margin-bottom: 0;
+      }
+    
+    .h1{
+        font-size: 3rem;
+        // font: normal normal bold 48px/64px Raleway;
+    }
+    .h2{
+        font-size: 2rem;
+        // font: normal normal bold 32px/48px Raleway;
+    }
+    
+    .h3{
+        font-size: 1.5rem;
+        // font: normal normal bold 24px/36px Raleway;
+    }
+    
+    .h4{
+        font-size: 1rem;
+        // font: normal normal bold 16px/24px Open Sans;
+    }
+    
+    .h5{
+        font-size: 0.8rem;
+    //    font-size: 14px;
+    }
+    
+    p{
+       font-size: 1rem;
+    }
+    .badge{
+        font-size: 0.87rem;
+    }
+    .info-sm{
+        font-size: 0.75rem !important;
+    }
+    
+    .raleway-font{
+       font-family: 'Raleway', sans-serif;
+    }
+    
+    .line-height-1 {
+        line-height: 1;
+      }
+    
+  }
+  
+  @include media-breakpoint-up(lg) {
+    .h1, .h2, .h3, .h4, .h5,  p {
+        margin-bottom: 0;
+      }
+    
+    .h1{
+        font-size: 3rem;
+        // font: normal normal bold 48px/64px Raleway;
+    }
+    .h2{
+        font-size: 2rem;
+        // font: normal normal bold 32px/48px Raleway;
+    }
+    
+    .h3{
+        font-size: 1.5rem;
+        // font: normal normal bold 24px/36px Raleway;
+    }
+    
+    .h4{
+        font-size: 1rem;
+        // font: normal normal bold 16px/24px Open Sans;
+    }
+    
+    .h5{
+        font-size: 0.87rem;
+    //    font-size: 14px;
+    }
+    
+    p{
+       font-size: 1rem;
+    }
+    .badge{
+        font-size: 0.87rem;
+    }
+    .info-sm{
+        font-size: 0.75rem !important;
+    }
+    
+    .raleway-font{
+       font-family: 'Raleway', sans-serif;
+    }
+    
+    .line-height-1 {
+        line-height: 1;
+      }
+    
+    
+  }
+
+
+// 文字基本設定
+// h1,h2,h3,h4,h5,h6,p{
+//    margin-bottom: 0;
+// }
+// .h1, .h2, .h3, .h4, .h5,  p {
+//     margin-bottom: 0;
+//   }
+
+// .h1{
+//     font-size: 3rem;
+//     // font: normal normal bold 48px/64px Raleway;
+// }
+// .h2{
+//     font-size: 2rem;
+//     // font: normal normal bold 32px/48px Raleway;
+// }
+
+// .h3{
+//     font-size: 1.5rem;
+//     // font: normal normal bold 24px/36px Raleway;
+// }
+
+// .h4{
+//     font-size: 1rem;
+//     // font: normal normal bold 16px/24px Open Sans;
+// }
+
+// .h5{
+//     font-size: 0.87rem;
+// //    font-size: 14px;
+// }
+
+// p{
+//    font-size: 1rem;
+// }
+// .badge{
+//     font-size: 0.87rem;
+// }
+// .info-sm{
+//     font-size: 0.75rem !important;
+// }
+
+// .raleway-font{
+//    font-family: 'Raleway', sans-serif;
+// }
+
+// .line-height-1 {
+//     line-height: 1;
+//   }
+
+
+
+
+
+
+// 圖片基本設定
+.bg-cover {
+    background-size: cover;
+    background-position: center center;
+  }
+
+
+//icon 設定
+.material-icons {
+    vertical-align: bottom;
+  }
+
+
+//logo 設定
+.logo{
+    text-indent:101%;
+    overflow:hidden;
+    white-space:nowrap;
+}
